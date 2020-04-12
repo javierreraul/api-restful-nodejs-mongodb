@@ -17,8 +17,8 @@ app.set('view engine', 'hbs')
 app.get('/login', (req, res) => {
   res.render('login')
 })
-app.get('/api/products', (req, res) => {
-  res.render('products')
+app.get('/products', (req, res) => {
+  res.render('product')
 })
 
 module.exports = app
