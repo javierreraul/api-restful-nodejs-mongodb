@@ -13,7 +13,7 @@ It's possible to interact with the API thanks to a little frontend application (
 | `/product/:id` | GET | Retrieve an specific product with `id`
 | `/product` | POST | Create a new product |
 | `/product/:id` | PUT | Update an existing product with `id`|
-| `/videos/:id` | DELETE | Remove an existing product with `id`|
+| `/product/:id` | DELETE | Remove an existing product with `id`|
 | `/signin` | POST | Signin an user |
 | `/login` | POST | Login as a user  |
 
